@@ -1,0 +1,43 @@
+/* Fazendo o RESET do estilo do browser */
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilizando */
+body{
+    background-color: #FCFFF2;
+}
+header{
+    background-color: #FDDA64;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li{
+    margin: 10px;
+}
+header li a{
+    padding: 6px;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+}
+footer{
+    background-color: #FDDA64;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.hmanga{
+    display: flex;
+}
